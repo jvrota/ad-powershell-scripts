@@ -1,6 +1,6 @@
 # Créditos: https://github.com/rot4ndano/
 
-Import-Csv -Path 'C:\Users\adm.joao\Desktop\Pasta1.csv' -Encoding UTF8 | ForEach-Object {
+Import-Csv -Path 'CAMINHO\ARQUIVO.csv' -Encoding UTF8 | ForEach-Object {
  
     $user = $_.termo1
     $termo2 = $_.termo2
@@ -21,6 +21,8 @@ Import-Csv -Path 'C:\Users\adm.joao\Desktop\Pasta1.csv' -Encoding UTF8 | ForEach
                 termo1,termo2,termo3 -> É obrigatório o uso dos três termos no início do arquivo ".csv" para "ativar" o padrão para os termos abaixo que devem ser separados por vírgulas,
                 Thiago,111111,Gerente    caso nem todos os usuários possuam os dados de algum termo, utilize o termo 3 para ativar o padrão
                 Vágner,333333,
+                Pedro,323353,Analista
+                João,099090,Técnico
                 
 #>
 
