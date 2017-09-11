@@ -1,0 +1,1 @@
+﻿Get-ADUser -Filter * | Select-Object name, sAMAccountName | Export-Csv "CAMINHO\ARQUIVO.csv"
