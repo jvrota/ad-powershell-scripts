@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="logo.png"  width="400" />
+</p>
+
 ## Scripts em Powershell para Active Directory
 
 Script para alteração de atributos de um ou mais usuários no Active Directory:
